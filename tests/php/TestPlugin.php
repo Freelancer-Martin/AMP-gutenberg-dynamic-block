@@ -9,6 +9,7 @@ namespace XWP\BlockScaffolding;
 
 use WP_Mock;
 
+
 /**
  * Test the WordPress plugin abstraction.
  */
