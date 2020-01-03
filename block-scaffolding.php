@@ -3,8 +3,8 @@
  * Plugin Name: AMP URL Gutenberg Dynamic Block
  * Description: A dynamic block, block displays in the block editor and the front-end:The total number of URLs validated and the total number of AMP validation errors. These are in a custom taxonomy.
  * Version: 1.0.0
- * Author: XWP
- * Author URI: https://github.com/xwp/block-scaffolding-wp
+ * Author: Freelancer Martin
+ * Author URI: https://github.com/Freelancer-Martin/AMP-gutenberg-dynamic-block
  * Text Domain: block-scaffolding
  *
  * @package BlockScaffolding
