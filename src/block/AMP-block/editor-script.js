@@ -7,7 +7,9 @@
     registerBlockType('gutenberg-examples/example-dynamic', {
         title: 'Amp URLs Block',
         icon: 'megaphone',
+        description: 'A dynamic block, block displays in the block editor and the front-end:The total number of URLs validated and the total number of AMP validation errors. These are in a custom taxonomy.',
         category: 'common',
+       
 
         edit: function (props) {
 
