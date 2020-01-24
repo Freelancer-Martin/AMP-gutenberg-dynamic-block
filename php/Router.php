@@ -35,6 +35,8 @@ class Router {
 	 */
 	public function init() {
 		add_action( 'enqueue_block_editor_assets', [ $this, 'enqueue_editor_assets' ] );
+		$new_AMP_Block_Validated_URL_Post_Type = new AMP_Block_Validated_URL_Post_Type( new Plugin( __FILE__ ) );
+		$new_AMP_Block_Validated_URL_Post_Type->run();
 	}
 
 	/**
@@ -55,3 +57,5 @@ class Router {
 		);
 	}
 }
+
+
