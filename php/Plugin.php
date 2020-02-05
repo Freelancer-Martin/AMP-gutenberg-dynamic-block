@@ -169,8 +169,8 @@ class Plugin {
 		static $meta;
 
 		if ( ! isset( $meta ) ) {
-			// $meta = get_file_data( $this->file, '' );
-			// $meta = get_file_data( '', '' );
+			 // $meta = get_file_data( $this->file, '' );
+			 $meta = get_file_data();
 		}
 
 		if ( isset( $field ) ) {

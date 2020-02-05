@@ -19,11 +19,11 @@ if ( file_exists( __DIR__ . '/vendor/autoload.php' ) ) {
 
 
 
-require( dirname( __FILE__ ) . '/src/block/AMP-block/init.php' );
+require( dirname( __FILE__ ) . '/src/block/AMP-block/class-amp-block-validated-url-post-type.php' );
 
 
 
-$router = new Router( new Plugin( __FILE__ ) );
+$router = new Router( new Plugin( __FILE__, '' ) );
 add_action( 'plugins_loaded', [ $router, 'init' ] );
 
 
